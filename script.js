@@ -8,12 +8,13 @@ const hitMeButton = document.getElementById('hitMe');
 hitMeButton.addEventListener('click', showImage);
 
 function showImage() {
-    const image = document.getElementById("img02");
-    image.style.display = "block";  
+    const image = document.getElementById('img02');
+    
+      image.style.display = "block";  
 
-    setTimeout(function () {
-        image.style.display = "none";  
-    }, 5000);
-    hitMeButton.append(image);
+      setTimeout(function() {
+          image.style.display = "none";  
+      }, 5000);
+    
 
 }
